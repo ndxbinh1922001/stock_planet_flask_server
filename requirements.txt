@@ -4,4 +4,4 @@ requests
 numpy
 yfinance
 tensorflow
-sklearn
+scikit-learn
