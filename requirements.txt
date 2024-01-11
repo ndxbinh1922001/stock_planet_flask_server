@@ -6,3 +6,4 @@ yfinance
 tensorflow
 scikit-learn
 matplotlib
+Gunicorn
