@@ -42,7 +42,7 @@ def predict_for_30_days_next(bank_code):
     y_pred_val=scaler.inverse_transform(y_pred_val)
     ytest = scaler.inverse_transform(ytest.reshape(-1,1))   
     yval = scaler.inverse_transform(yval.reshape(-1,1))
-    start_point={"acb":3, "mbb":5, "shb":3, "stb":5, "vcb":5}
+    start_point={"acb":3, "mbb":4, "shb":3, "stb":5, "vcb":5}
     x_input=val_data[start_point[bank_code]:].reshape(1,-1)
     x_input.shape
     temp_input=list(x_input)
